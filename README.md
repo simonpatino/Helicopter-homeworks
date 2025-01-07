@@ -48,7 +48,11 @@ The notebook includes:
 - **Libraries Used:**
   - NumPy
   - Matplotlib
+  - scipy
 
 ---
+
+Acknowledgments
+PhD. Diego Francisco Hidalgo: For guidance and support throughout the assignment.
 
 ## Repository Structure
