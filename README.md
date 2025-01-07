@@ -52,7 +52,52 @@ The notebook includes:
 
 ---
 
+
+# Helicopter Dynamics - Assignment 2
+
+## Overview
+This repository contains the second assignment for the university course on helicopter fundamentals. The focus of this assignment is to explore and integrate rotor blade dynamics, including numerical solutions for dynamic models and blade flapping motion under hover conditions. The calculations and theoretical explanations are presented in a Jupyter Notebook format.
+
+
+## Key Objectives
+The assignment aims to:
+1. Analyze the blade dynamics under hover conditions.
+2. Derive and solve dynamic equations governing blade flapping motion.
+3. Implement numerical solutions for higher-order differential equations.
+
+---
+
+## Calculations and Concepts
+The notebook includes:
+- Hover condition analysis with zero advance ratio (\( \mu = 0 \)):
+  \[ \lambda^2 = \frac{C_T}{2} \]
+  where:
+  - \( \lambda \): Inflow ratio
+  - \( C_T \): Thrust coefficient
+- Calculation of induced inflow ratio (\( \lambda_i \)):
+  \[ \lambda_i = \frac{v_i}{\Omega R} \]
+- Dynamic model describing blade flapping motion:
+  \[ I_{b f} \ddot{\beta} + I_{b f} \Omega^2 \beta = M_{L f l a p} \]
+  where:
+  - \( I_{b f} \): Blade moment of inertia
+  - \( \ddot{\beta} \): Blade flapping acceleration
+  - \( \Omega \): Rotor angular velocity
+  - \( M_{L f l a p} \): Aerodynamic moment
+- Transformation of the higher-order equation into a system of first-order differential equations for numerical solutions.
+
+---
+
+## Tools and Resources
+- **Programming Language:** Python
+- **Environment:** Jupyter Notebook
+- **Libraries Used:**
+  - NumPy
+  - SciPy
+  - Matplotlib
+
+---
+
 Acknowledgments
 PhD. Diego Francisco Hidalgo: For guidance and support throughout the assignment.
 
-## Repository Structure
+
